@@ -1,0 +1,44 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.wrapper
+{
+    height: 100vh;
+}
+.top-bar
+{
+    width: 80%;
+    height: 50px;
+    margin: 20px auto;
+}
+.logo
+{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 100px;
+    margin: 10px auto;
+}
+.menu-bar
+{
+    width: 70%;
+    float: left;
+    text-align:center;
+}
+.menu-bar ul li
+{
+    font-family:'Raleway',sans-serif;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding-top:10px;
+    cursor: pointer;
+}
+.active,.menu-bar ul li:hover
+{
+    border-bottom: 2px solid rgb(86, 152, 206);
+}
